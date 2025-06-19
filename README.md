@@ -63,8 +63,8 @@ Imports ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stack
 ```
 ├── spambase/
 |   ├── spambase.data           # database
-│   └── column\_names.py         # Feature name metadata
-├── email\_spam\_clf.ipynb        # Main Notebook
+│   └── column\_names.py        # Feature name metadata
+├── email\_spam\_clf.ipynb      # Main Notebook
 └── README.md
 ```
 
