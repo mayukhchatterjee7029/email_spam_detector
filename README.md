@@ -89,7 +89,6 @@ pip install numpy pandas matplotlib scipy scikit-learn seaborn xgboost
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 ## 🙏 Acknowledgments
 
 - [UCI Machine Learning Repository](https://archive.ics.uci.edu/) for providing the `Spambase Dataset`
