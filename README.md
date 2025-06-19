@@ -53,7 +53,8 @@ To create a scalable, interpretable, and production-ready spam classifier using:
 
 ## 🧩 Final Architecture
 
-```CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
+```
+CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
 ```
 
 ---
