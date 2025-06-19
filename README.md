@@ -30,9 +30,9 @@ To create a scalable, interpretable, and production-ready spam classifier using:
 |-------------------|-----------|---------|----------|---------|
 | LogisticRegression| ~93.1%    | ~92.9%  | –        | –       |
 | DecisionTree       | ~92.8%   | ~93.3%  | –        | –       |
-| Random Forest      | ~93.2%   | ~94.2%  | –        | –       |
+| Random Forest      | ~93.2%   | ~94.2%  | –        | 24.08   |
 | XGBoost            | ~97.6%   | ~95.9%  | –        | –       |
-| Gradient Boosting  | ~97.1%   | ~95.6%  | –        | –       |
+| Gradient Boosting  | ~97.1%   | ~95.6%  | –        | 20.85   |
 | Voting Ensemble    | ~95.6%   | ~95.9%  | –        | –       |
 | ✅ Final Stacked Ensemble | **97.2%** | **96.4%** | **93.7%** | **0.25** |
 
