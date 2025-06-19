@@ -62,12 +62,10 @@ Imports ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stack
 
 ```
 ├── spambase/
+    ├── spambase.data           # database
 │   └── column\_names.py         # Feature name metadata
-├── my\_debuggers.py             # Custom NaN checker & plot functions 
 ├── email\_spam\_clf.ipynb        # Main Notebook
-├── README.md
-└── plots/
-└── \*.png                   # Confusion Matrices and Learning Curves
+└── README.md
 ```
 
 ---
