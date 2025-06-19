@@ -54,7 +54,7 @@ To create a scalable, interpretable, and production-ready spam classifier using:
 ## 🧩 Final Architecture
 
 ```
-☑️ Imports ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
+✅ Imports ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
 ```
 
 ---
