@@ -76,7 +76,7 @@ Raw CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡�
 ```
 ├── spambase/
 │   └── column\_names.py         # Feature name metadata
-├── my\_debuggers.py             # Custom NaN checker & plot functions
+├── my\_debuggers.py             # Custom NaN checker & plot functions [Repo link](https://github.com/mayukhchatterjee7029/my_debuggers)
 ├── email\_spam\_clf.ipynb        # Main Notebook
 ├── README.md
 └── plots/
