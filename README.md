@@ -47,27 +47,13 @@ To create a scalable, interpretable, and production-ready spam classifier using:
 - ✔️ Ensemble Learning (Voting + Stacking Classifiers)  
 - ✔️ RMSE and Accuracy on Final Test Set  
 - ✔️ Reproducibility with fixed random seeds
-
----
-
-## 📈 Visualization Samples
-
-<p float="left">
-  <img src="plots/logreg_confusion_matrix.png" width="300"/>
-  <img src="plots/logreg_learning_curve.png" width="300"/>
-</p>
-
-<p float="left">
-  <img src="plots/xgboost_learning_curve.png" width="300"/>
-  <img src="plots/ensemble_confusion_matrix.png" width="300"/>
-</p>
+- ✔️ Custom evaluation modules used [Repo link](https://github.com/mayukhchatterjee7029/my_debuggers)
 
 ---
 
 ## 🧩 Final Architecture
 
-```
-Raw CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
+```CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡️ Ensemble Voting/Stacking ➡️ Test Evaluation
 ```
 
 ---
@@ -76,42 +62,39 @@ Raw CSV ➡️ Pandas DataFrame ➡️ Preprocessing ➡️ Model Selection ➡�
 ```
 ├── spambase/
 │   └── column\_names.py         # Feature name metadata
-├── my\_debuggers.py             # Custom NaN checker & plot functions [Repo link](https://github.com/mayukhchatterjee7029/my_debuggers)
+├── my\_debuggers.py             # Custom NaN checker & plot functions 
 ├── email\_spam\_clf.ipynb        # Main Notebook
 ├── README.md
 └── plots/
 └── \*.png                   # Confusion Matrices and Learning Curves
-````
-
----
-
-## 📚 Future Improvements
-
-* 🔍 Add ROC-AUC and threshold tuning
-* 🧠 Feature importance from tree models
-* 🕸 Deploy via Flask or FastAPI
-* 🎯 Use NLP embeddings for semantic spam detection
-
----
-
-## 🤝 Acknowledgements
-
-* UCI Spambase Dataset
-* Scikit-learn, XGBoost, Matplotlib, Seaborn
-
----
-## 📜 License
-
-[MIT License](./LICENSE)
-
 ```
 
 ---
+## 📌 Requirements
 
-Let me know if you want:
-- `LICENSE` file
-- GitHub Pages version (with charts embedded)
-- Exportable PDF report version of the notebook
+* Python 3.8+
+* scikit-learn
+* pandas, seaborn, matplotlib
+* xgboost
 
-Also upload the `plots/` folder if you want those previews visible on GitHub.
+Install via:
+
+```bash
+pip install numpy pandas matplotlib scipy scikit-learn seaborn xgboost
 ```
+
+---
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+## 🙏 Acknowledgments
+
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/) for providing the `Spambase Dataset`
+- `Scikit-learn` community for excellent machine learning tools
+- Contributors and maintainers of all open-source libraries used in this project
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
